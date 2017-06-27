@@ -24,7 +24,7 @@
 	npm install
 	```
 	
-- 启动 / Starup:
+- 启动 / Startup:
 	```
 	npm start
 	```
