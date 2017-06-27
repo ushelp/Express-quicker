@@ -3,7 +3,7 @@
 **Express-quicker** 是一个针对 [Express](http://expressjs.com/ "Express - Node.js web application framework") 的应用程序快速生成命令行工具。项目骨架基于 [Express-quickstart](https://github.com/ushelp/Express-quickstart "Express-quickstart")。
 
 
-**Express-quieckstart** is a [Express](http://expressjs.com/ "Express - Node.js web application framework") application generator tool, to quickly create an application skeleton based on [Express-quickstart](https://github.com/ushelp/Express-quickstart "Express-quickstart").
+**Express-quiecker** is a [Express](http://expressjs.com/ "Express - Node.js web application framework") application generator tool, to quickly create an application skeleton based on [Express-quickstart](https://github.com/ushelp/Express-quickstart "Express-quickstart").
 
 
 
