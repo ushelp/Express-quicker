@@ -45,7 +45,7 @@
 │   ├── js
 │   └── css
 │       └── style.css
-│   └── favicon.
+│   └── favicon.ico
 │   └── upload.html
 ├── routes
 │   ├── index.js
@@ -57,7 +57,7 @@
 
 6 directories, 10 files
 ```
-
+  
 ## Express-quickstart
 
 ### [Express-quickstart](https://github.com/ushelp/Express-quickstart "Express-quickstart")
