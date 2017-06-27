@@ -33,6 +33,30 @@
 
  `http://localhost:3000/`
 
+## 目录结构 / directory structure
+
+
+```sh
+.
+├── app.js
+├── package.json
+├── public
+│   ├── img
+│   ├── js
+│   └── css
+│       └── style.css
+│   └── favicon.
+│   └── upload.html
+├── routes
+│   ├── index.js
+│   └── users.js
+└── views
+    ├── error.etj
+    ├── index.etj
+    └── users.etj
+
+6 directories, 10 files
+```
 
 ## Express-quickstart
 
