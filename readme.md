@@ -50,12 +50,13 @@
 ├── routes
 │   ├── index.js
 │   └── users.js
+├── uploads
 └── views
     ├── error.etj
     ├── index.etj
     └── users.etj
 
-6 directories, 10 files
+7 directories, 10 files
 ```
   
 ## Express-quickstart

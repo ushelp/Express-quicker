@@ -1,13 +1,12 @@
 {
   "name": "express-quicker",
-  "version": "1.1.1",
+  "version": "1.2.0",
   "description": "A command-line to quickly create an Node.js Express application skeleton based on Express-quickstart.",
   "bin": {
-	"equicker": "bin/express-quicker.js"
+    "equicker": "bin/express-quicker.js"
   },
   "main": "bin/express-quicker.js",
-  "scripts": {
-  },
+  "scripts": {},
   "repository": {
     "type": "git",
     "url": "https://github.com/ushelp/Express-quicker.git"
