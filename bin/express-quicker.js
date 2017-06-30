@@ -10,7 +10,7 @@
 
 console.log('Start equicker.');
 
-const SRC = 'Express-quickstart-master-1.2.0.zip';
+const SRC = 'Express-quickstart-master-1.2.1.zip';
 
 const path = require('path')
 const fs = require('fs');
