@@ -646,8 +646,14 @@ function setDocumentScrollTop(ypos)
 <ul> 
  <li> <p>安装命令行工具 / Installs command-line tool:</p> <pre><code> npm install express-quicker -g
 </code></pre> </li> 
- <li> <p>创建 Express-quickstart 项目 / Creates an Express-quickstart app:</p> <pre><code> equicker [app-name]
+ <li> <p>创建 Express-quickstart 项目 / Creates an Express-quickstart app:</p> <pre><code> equicker -h
+ equicker [app-name]
+ equicker [-t &lt;type&gt;] [app-name]
+</code></pre> 
+  <ul> 
+   <li> <p><strong>type</strong></p> <p>当前可用类型：[emp]</p> <p>The current allowable type in: [emp]</p> <pre><code>equicker -t emp [app-name]
 </code></pre> </li> 
+  </ul> </li> 
  <li> <p>安装依赖 / Then install dependencies:</p> <pre><code> npm install
 </code></pre> </li> 
  <li> <p>启动 / Startup:</p> <pre><code> npm start
@@ -656,30 +662,71 @@ function setDocumentScrollTop(ypos)
 </ul> 
 <p><code>http://localhost:3000/</code></p> 
 <h2> <a id="目录结构--directory-structure" class="anchor" href="#%E7%9B%AE%E5%BD%95%E7%BB%93%E6%9E%84--directory-structure" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>目录结构 / directory structure</h2> 
-<div class="highlight highlight-source-shell">
- <pre><span class="pl-c1">.</span>
-├── app.js
-├── package.json
-├── public
-│   ├── img
-│   ├── js
-│   └── css
-│       └── style.css
-│   └── favicon.ico
-│   └── upload.html
-├── routes
-│   ├── index.js
-│   └── users.js
-├── uploads
-└── views
-    ├── error.etj
-    ├── index.etj
-    └── users.etj
-
-7 directories, 10 files</pre>
-</div> 
+<ul> 
+ <li> <p><strong>equicker</strong> [app-name]</p> 
+  <div class="highlight highlight-source-shell">
+   <pre> <span class="pl-c1">.</span>
+ ├── app.js
+ ├── package.json
+ ├── public
+ │   ├── img
+ │   ├── js
+ │   └── css
+ │       └── style.css
+ │   └── favicon.ico
+ │   └── upload.html
+ ├── routes
+ │   ├── index.js
+ │   └── users.js
+ ├── uploads
+ └── views
+     ├── error.etj
+     ├── index.etj
+     └── users.etj</pre>
+  </div> </li> 
+ <li> <p><strong>equicker -t emp</strong> [app-name]</p> 
+  <div class="highlight highlight-source-shell">
+   <pre> <span class="pl-c1">.</span>
+ ├── app.js
+ ├── package.json
+ ├── entiy
+ │   ├── Dept.js
+ │   ├── Emp.js
+ │   └── User.js
+ ├── filter
+ │   └── user-filter.js
+ ├── public
+ │   ├── img
+ │   ├── js
+ │   └── css
+ │       └── style.css
+ │   └── favicon.ico
+ │   └── upload.html
+ ├── routes
+ │   ├── depts.js
+ │   ├── emps.js
+ │   ├── index.js
+ │   └── users.js
+ ├── service
+ │   ├── dept-service.js
+ │   ├── emp-service.js
+ │   └── users-service.js
+ ├── uploads
+ └── views
+ 	├── admin
+ 	│   └── admin.etj
+ 	├── dept
+ 	│   └── list.etj	
+ 	├── emp
+ 	│   └── list.etj
+     ├── error.etj
+     └── index.etj</pre>
+  </div> </li> 
+</ul> 
 <h2> <a id="express-quickstart" class="anchor" href="#express-quickstart" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Express-quickstart</h2> 
 <h3> <a id="express-quickstart-1" class="anchor" href="#express-quickstart-1" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="https://github.com/ushelp/Express-quickstart" title="Express-quickstart">Express-quickstart</a> </h3> 
+<h2> <a id="express-quickstart-emp" class="anchor" href="#express-quickstart-emp" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Express-quickstart-emp</h2> 
+<h3> <a id="express-quickstart-emp-1" class="anchor" href="#express-quickstart-emp-1" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a><a href="https://github.com/ushelp/express-quickstart-emp" title="Express-quickstart-emp">Express-quickstart-emp</a> </h3> 
 <h2> <a id="end" class="anchor" href="#end" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>End</h2> 
 <p>Email：<a href="mailto:inthinkcolor@gmail.com">inthinkcolor@gmail.com</a></p> 
 <p><a href="http://www.easyproject.cn" title="EasyProject Home">http://www.easyproject.cn</a></p> 

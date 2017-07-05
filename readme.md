@@ -16,8 +16,19 @@
 
 - 创建 Express-quickstart 项目 / Creates an Express-quickstart app:
 	```
+	equicker -h
 	equicker [app-name]
+	equicker [-t <type>] [app-name]
 	```
+	- **type**
+	
+	     当前可用类型：[emp]
+	   
+	  The current allowable type in: [emp]
+	  
+	  ```
+	  equicker -t emp [app-name]
+	  ```
 
 - 安装依赖 / Then install dependencies:
 	```
@@ -35,34 +46,77 @@
 
 ## 目录结构 / directory structure
 
+- **equicker** [app-name]
 
-```sh
-.
-├── app.js
-├── package.json
-├── public
-│   ├── img
-│   ├── js
-│   └── css
-│       └── style.css
-│   └── favicon.ico
-│   └── upload.html
-├── routes
-│   ├── index.js
-│   └── users.js
-├── uploads
-└── views
-    ├── error.etj
-    ├── index.etj
-    └── users.etj
-
-7 directories, 10 files
-```
+	```sh
+	.
+	├── app.js
+	├── package.json
+	├── public
+	│   ├── img
+	│   ├── js
+	│   └── css
+	│       └── style.css
+	│   └── favicon.ico
+	│   └── upload.html
+	├── routes
+	│   ├── index.js
+	│   └── users.js
+	├── uploads
+	└── views
+	    ├── error.etj
+	    ├── index.etj
+	    └── users.etj
+	```
+  
+- **equicker  -t  emp**  [app-name]
+ 
+	```sh
+	.
+	├── app.js
+	├── package.json
+	├── entiy
+	│   ├── Dept.js
+	│   ├── Emp.js
+	│   └── User.js
+	├── filter
+	│   └── user-filter.js
+	├── public
+	│   ├── img
+	│   ├── js
+	│   └── css
+	│       └── style.css
+	│   └── favicon.ico
+	│   └── upload.html
+	├── routes
+	│   ├── depts.js
+	│   ├── emps.js
+	│   ├── index.js
+	│   └── users.js
+	├── service
+	│   ├── dept-service.js
+	│   ├── emp-service.js
+	│   └── users-service.js
+	├── uploads
+	└── views
+		├── admin
+		│   └── admin.etj
+		├── dept
+		│   └── list.etj	
+		├── emp
+		│   └── list.etj
+	    ├── error.etj
+	    └── index.etj
+	``` 
   
 ## Express-quickstart
 
 ### [Express-quickstart](https://github.com/ushelp/Express-quickstart "Express-quickstart")
 
+  
+## Express-quickstart-emp
+
+### [Express-quickstart-emp](https://github.com/ushelp/express-quickstart-emp "Express-quickstart-emp")
 
 ## End
 
