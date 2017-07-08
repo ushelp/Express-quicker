@@ -15,8 +15,8 @@ const unzip = require('unzip');
 const program = require('commander')
 const colors = require('colors')
 
-const SRC = 'Express-quickstart-master-1.3.0.zip';
-const EMP_SRC = 'express-quickstart-emp-master-1.3.0.zip';
+const SRC = 'Express-quickstart-master-1.4.0.zip';
+const EMP_SRC = 'express-quickstart-emp-master-1.4.0.zip';
 
 const URL = 'https://github.com/ushelp/Express-quickstart/archive/master.zip';
 const EMP_URL = 'https://github.com/ushelp/express-quickstart-emp/archive/master.zip';
@@ -24,7 +24,7 @@ const EMP_URL = 'https://github.com/ushelp/express-quickstart-emp/archive/master
 var useType=null;
 var appName=null;
 
-program.version('1.3.0')
+program.version('1.4.0')
 .name('equicker')
 .usage(' [options]  [app-name]')
 .description('Express application generator tool based on Express-quickstart.')

@@ -1,6 +1,6 @@
 {
   "name": "express-quicker",
-  "version": "1.3.0",
+  "version": "1.4.0",
   "description": "A command-line to quickly create an Node.js Express application skeleton based on Express-quickstart.",
   "bin": {
     "equicker": "bin/express-quicker.js"
